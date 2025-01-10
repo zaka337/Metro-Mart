@@ -516,22 +516,3 @@ border:2px solid black;
 border-radius: 12px; 
 }
 
-.catagories{
-position: absolute;
-margin-left: 50%;
-margin-top: 50px;
-}
-
-.quickLinks{
-position: absolute;
-margin-left: 75%;
-margin-top: 55px;
-}
-
-.information a,
-.catagories a,
-.quickLinks a{
-color: #000000;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-}
