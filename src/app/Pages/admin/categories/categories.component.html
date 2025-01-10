@@ -1,0 +1,24 @@
+<video autoplay muted loop id="background-video">
+    <source src="assets/images/category.mp4" type="video/mp4">
+    Your browser does not support this video.
+ </video>
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Sr No </th>
+                    <th>Category No </th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of (products$ | async); let i = index">
+                    <td>{{i + 1}}</td>
+                    <td>{{item.categoryName}}</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
